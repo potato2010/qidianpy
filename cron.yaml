@@ -1,0 +1,9 @@
+cron:
+- description: check zhuixu
+  url: /check?id=1979049
+  schedule: every 5 minutes
+  timezone: Asia/Shanghai
+- description: check dashengzhuan
+  url: /check?id=1890269
+  schedule: every 5 minutes
+  timezone: Asia/Shanghai
