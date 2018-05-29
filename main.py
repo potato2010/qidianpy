@@ -5,7 +5,9 @@ import time
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
-
+"""
+xxxxx.appspot.com
+"""
 from flask import Flask, request
 import urllib2
 from google.appengine.api import mail
